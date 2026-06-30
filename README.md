@@ -8,8 +8,8 @@ The blog (`n0t.space/blog/`) lives in a separate repo and is mounted via reverse
 
 ```
 apps/
-  site/   # n0t.space — landing, /about, /portfolio, /phlipped, /talks, /projects
-  docs/   # docs.n0t.space — PHLIPPED documentation (Starlight)
+  site/   # n0t.space - landing, /about, /portfolio, /phlipped, /talks, /projects
+  docs/   # docs.n0t.space - PHLIPPED documentation (Starlight)
 ```
 
 ## Develop

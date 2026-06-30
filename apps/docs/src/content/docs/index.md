@@ -1,6 +1,6 @@
 ---
 title: PHLIPPED
-description: Physical Layered Intrusion Prevention, Protection & Evaluation Defense — a defensive framework for the Flipper Zero era.
+description: Physical Layered Intrusion Prevention, Protection & Evaluation Defense - a defensive framework for the Flipper Zero era.
 template: splash
 hero:
   tagline: Attackers have Flipper Zero. Defenders have PHLIPPED.
