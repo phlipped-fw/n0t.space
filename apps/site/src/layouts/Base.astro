@@ -1,0 +1,47 @@
+---
+interface Props { title: string; description?: string; }
+const { title, description = "Adriano — _AstroN0T. Physical pentesting, purple team, PHLIPPED." } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">n0t.space</a>
+      <nav>
+        <a href="/about/">about</a>
+        <a href="/portfolio/">portfolio</a>
+        <a href="/phlipped/">phlipped</a>
+        <a href="/talks/">talks</a>
+        <a href="/projects/">projects</a>
+        <a href="/blog/">blog</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <p>_AstroN0T · <a href="https://github.com/phlipped">github/phlipped</a> · <a href="https://infosec.exchange/@AstroN0T">mastodon</a></p>
+    </footer>
+    <style is:global>
+      :root { color-scheme: dark; --fg:#e6e6e6; --bg:#0a0a0a; --accent:#5eead4; }
+      * { box-sizing: border-box; }
+      body { margin:0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background:var(--bg); color:var(--fg); line-height:1.6; }
+      header { display:flex; justify-content:space-between; padding:1.5rem 2rem; border-bottom:1px solid #222; }
+      header .logo { font-weight:700; color:var(--accent); text-decoration:none; }
+      nav a { color:var(--fg); margin-left:1rem; text-decoration:none; }
+      nav a:hover { color:var(--accent); }
+      main { max-width: 760px; margin: 3rem auto; padding: 0 1.5rem; }
+      footer { padding:2rem; border-top:1px solid #222; text-align:center; color:#888; }
+      a { color: var(--accent); }
+      h1,h2,h3 { line-height:1.2; }
+      code { background:#161616; padding:.15em .35em; border-radius:3px; }
+    </style>
+  </body>
+</html>
