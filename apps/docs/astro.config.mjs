@@ -7,9 +7,9 @@ export default defineConfig({
     starlight({
       title: 'PHLIPPED docs',
       description: 'Physical Layered Intrusion Prevention, Protection & Evaluation Defense',
-      social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/phlipped' },
-      ],
+      social: {
+        github: 'https://github.com/phlipped',
+      },
       sidebar: [
         {
           label: 'Start here',
