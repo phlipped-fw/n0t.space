@@ -6,7 +6,7 @@ import Base from "../layouts/Base.astro";
   <p>Writeups and longer-form project pages.</p>
   <ul>
     <li><strong><a href="https://news.n0t.space">news.n0t.space</a></strong> - small cron job that aggregates daily news so I can keep up without doomscrolling.</li>
-    <li><strong>MuteMotion</strong> - TBD.</li>
+    <li id="mutemotion"><strong>MuteMotion</strong> - real-time, gyroscope-synced visual overlay that fights motion sickness on handheld gaming consoles (Steam Deck first). Core/Shim architecture: platform-agnostic C++ engine (the algorithm) plus a SteamOS Python plugin under Decky Loader (the body). Rendered through a Canvas 2D path inside Decky's CEF webview and a native python-xlib overlay via the GAMESCOPE_EXTERNAL_OVERLAY atom. Validated with a small HCI study. Public writeup is being prepared; source for the Shim lives at <a href="https://github.com/MuteMotion-Tech/MuteMotion-SteamDeck-Shim">MuteMotion-Tech/MuteMotion-SteamDeck-Shim</a>.</li>
     <li><strong>Homelab</strong> - bridge-type architecture: hypervisor host with many VMs (Proxmox-class), travel-router fleet, multi-zone segmentation, Wazuh for telemetry. Writeups focus on the patterns, not the brand list.</li>
     <li><strong>PHLIPPED lab</strong> - see <a href="/phlipped/">phlipped</a>.</li>
   </ul>
