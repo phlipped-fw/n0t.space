@@ -9,7 +9,7 @@ hero:
       link: /start/introduction/
       icon: right-arrow
     - text: GitHub
-      link: https://github.com/phlipped
+      link: https://github.com/phlipped-fw
       icon: external
       variant: minimal
 ---

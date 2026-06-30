@@ -8,7 +8,7 @@ export default defineConfig({
       title: 'PHLIPPED docs',
       description: 'Physical Layered Intrusion Prevention, Protection & Evaluation Defense',
       social: {
-        github: 'https://github.com/phlipped',
+        github: 'https://github.com/phlipped-fw',
       },
       sidebar: [
         {
